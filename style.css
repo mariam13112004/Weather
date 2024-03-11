@@ -2,7 +2,7 @@
     height: 100%;
 }
 .display-temp{
-    background-image: url(../alexander-andrews-eNoeWZkO7Zc-unsplash.jpg);
+    background-image: url(../weather.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -12,7 +12,7 @@
 
 }
 .navbar{
-    background-color: rgba(213, 118, 178, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .navbar-nav{
     margin-left: 50%;
@@ -26,24 +26,24 @@
 }
 .display-temp #search-bar {
     padding: 5px 15px;
-    border: 6px solid #853e80;
+    border: 6px solid black;
     border-radius: 20px;
 }
 #emailInput {
     padding: 5px 15px;
     margin-left: 30%;
-    border: 6px solid #853e80;
+    border: 6px solid black;
     border-radius: 20px;
 }
 .btn{
-    border: 3px solid #853e80;
+    border: 3px solid black;
     box-shadow: #b5b2b5;
     color: azure;
 }
 .btn:hover{
-    background-color: #853e80;
+    background-color: black;
     color: azure;
-    border: 3px solid #853e80;
+    border: 3px solid black;
 }
 .display-temp .temp-card {
     width: 32%;
@@ -51,7 +51,7 @@
 }
 
 .display-temp .temp-card:first-of-type {
-    background-color: rgba(215, 116, 219, 0.575);
+    background-color: rgba(0,0,0, 0.575);
 }
 .display-temp .temp-card:first-of-type h2 {
     font-size: 50px;
@@ -59,7 +59,7 @@
 }
 
 .display-temp .temp-card:first-of-type .day-and-date {
-    background-color: rgba(215, 116, 219, 0.575);
+    background-color: rgba(0,0,0, 0.575);
 }
 
 .display-temp .temp-card:nth-of-type(2) {
@@ -69,19 +69,19 @@
 
 .display-temp .temp-card:nth-of-type(2), 
 .display-temp .temp-card:nth-of-type(3) {
-    background-color: rgba(215, 116, 219, 0.575);
+    background-color: rgba(0,0,0, 0.575);
     transition: all 0.3s;
 }
 
 .display-temp .temp-card:nth-of-type(2):hover,
 .display-temp .temp-card:nth-of-type(3):hover {
-    background-color: rgba(215, 116, 219, 0.575);
+    background-color: rgba(0,0,0, 0.575);
 
 }
 
 .display-temp .temp-card .day-and-date {
     /*background-color: #455a64;*/
-    background-color: rgba(215, 116, 219, 0.575);
+    background-color: rgba(0,0,0, 0.575);
     color: #f5f6f9;
     padding: 10px 25px;
     border-top-left-radius: 8px;
@@ -148,7 +148,7 @@
 
 
 footer{
-    background-image: url(../alexander-andrews-eNoeWZkO7Zc-unsplash.jpg);
+    background-image: url(../weather.jpg);
     background-size: cover;
     background-position: center center;
 
@@ -169,7 +169,7 @@ footer i {
 }
 
 footer i:hover {
-    color: #ce0dd8;
+    color: #000;
 }
 .pprr{
     padding-top: 5%;

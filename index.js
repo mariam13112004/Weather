@@ -23,6 +23,7 @@ let nextDay = document.getElementsByClassName("nextDay"),
     maxDegree = document.getElementsByClassName("max-degree"),
     minDegree = document.getElementsByClassName("min-degree"),
     nextDayDescription = document.getElementsByClassName("nextDay-description");
+
 //Get Data from API:
 async function getWeatherData() {
     apiResponse = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=848e4c9efef048e494f100521210205&q=${currentCity}&days=3&aqi=no&alerts=no`);
